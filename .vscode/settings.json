@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "prgoramas_em_javascr"
+    "liveServer.settings.multiRootWorkspaceName": "prgoramas_em_javascr",
+    "java.configuration.updateBuildConfiguration": "disabled"
 }
