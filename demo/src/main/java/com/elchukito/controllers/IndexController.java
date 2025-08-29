@@ -1,16 +1,12 @@
 package com.elchukito.controllers;
 
-
-import java.util.HashMap;
-import java.util.Map;
-
-import io.javalin.http.Context;
 import io.javalin.http.Handler;
 
 public class IndexController {
     
-    public Handler get = (Context ctx)->{
+    public Handler get = ctx -> {
         ctx.render("index.html");
+        // iremos utilizar templetes
+        // com render()
     };
-
 }
