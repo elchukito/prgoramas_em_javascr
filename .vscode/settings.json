@@ -3,5 +3,6 @@
     "java.configuration.updateBuildConfiguration": "disabled",
     "vscode-pokemon.pokemonSize": "small",
     "vscode-pokemon.theme": "none",
-    "vscode-pokemon.position": "explorer"
+    "vscode-pokemon.position": "explorer",
+    "editor.fontSize": 17
 }
