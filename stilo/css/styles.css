@@ -9,7 +9,8 @@ body {
     align-content: center;
     margin: 0;
     padding: 0;
-    background-color: rgb(41, 38, 45);
+    background-image: radial-gradient(circle at top, #474056 10%, #34303b 90%);
+    background-size: 100vw 100vh;
 }
 
 h1 {
@@ -18,52 +19,132 @@ h1 {
 }
 
 #contact-list {
-    width: 85%;
+    width: 65%;
     margin: auto;
-    padding: 20px;
+    padding: 30px 40px;
+    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(249, 234, 247, 0.4);
 }
 
 #contact-card {
     display: flex;
     align-items: center;
     align-content: center;
-    gap: 20px;
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 5px 20px;
     border: 2px solid rgba(0, 0, 0, 0.12);
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.06);
+    background-color: rgba(43, 39, 42, 0.6);
+}
+#contact-img {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 #contact-name {
     font-size: 20px;
     font-weight: 600;
-    width: 30%;
+    padding: 0px 10px;
 }
 
 #contact-phone {
     font-size: 13px;
     font-weight: 400;
-    width: 40%;
+    padding: 0px 10px;
 }
 
-#contact-phone:hover {
-    text-decoration: underline;
+#contact-favorite, #contact-edit, #contact-delete {
+    color: aliceblue;
+    font-size: 200%;
+    padding: 0 2%;
+    border-radius: 5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
     cursor: pointer;
 }
 
+#contact-favorite {
+    margin-left: auto;
+    background-color: rgb(63, 103, 222);
+}
+
+#contact-edit {
+    background-color: rgb(250, 169, 19);
+    margin: 0 2%;
+}
+
+#contact-delete {
+    background-color: rgb(255, 37, 37);
+}
+
+
 #sign-but {
     display: block;
-    margin: 20px auto;
+    margin: 3% auto 3% auto;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(250, 169, 19);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
+
+#container {
+    width: 65%;
+    margin: auto;
+    padding: 3% 6%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#name, #phone, #email {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #151515;
+}
+
+#name, #phone, #email, ::placeholder {
+    font-size: 14px;
+}
+
+#name, #phone, #email, :focus {
+    outline: none;
+}
+
+#name, #phone, #email, ::target-text {
+    padding-left: 2.5%;
+}
+
+#add-but {
+    display: block;
+    margin: 3% auto 3% auto;
+    margin-bottom: 2%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(63, 103, 222);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#back-but {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}  
