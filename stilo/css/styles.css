@@ -113,8 +113,8 @@ h1 {
 
 #name, #phone, #email {
     width: 100%;
-    padding: 2.5%;
-    margin: 4% 0;
+    padding: 2%;
+    margin: 3% 0;
     border: 2px solid #ccc;
     border-radius: 40px;
     font-size: 16px;
@@ -137,7 +137,7 @@ h1 {
     display: block;
     margin: 3% auto 3% auto;
     margin-bottom: 2%;
-    padding: 2.2% 4.4%;
+    padding: 1.5% 3%;
     font-size: 17px;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
