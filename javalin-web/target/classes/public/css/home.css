@@ -1,0 +1,84 @@
+body {
+    font-family: "Outfit";
+    background-color: #6144b2;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.icon {
+    width: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact {
+    padding: 0;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #f4f4f3;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 700px;
+}
+
+.name {
+    color: #6144b2;
+    background: linear-gradient(90deg, #bea4fe 0%, #dfb4fe 100%);
+    padding: 8px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center; 
+}
+
+.contact-data {
+    margin: 18px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.contact-data li {
+    color: #6144b2;
+    border-bottom: 1px solid #6144b2;
+    padding: 4px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    background-color: #6144b2;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    margin: 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    color: #6144b2;
+    background-color: white;
+}
+
+.contact:hover {
+    transform: translateY(-5px);
+}
