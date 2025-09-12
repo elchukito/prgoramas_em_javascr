@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contatos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>agenda de contatos</title>
 </head>
 <body>
-    <h1>Lista de Conos</h1>
-    <p>Sergio Moro</p>
-    <p>plebe_do_sul</p>
-    <p>Douglas</p>
-    <p>elChukito</p>
+    <h1 id="title">Agenda de Contatos</h1>
+
+    <button id="sign-but" onclick="window.location.href='/cadastro'">Cadastrar Contato</button>
+    
+    <div id="contact-list">
+        <div id="contact-card">
+            <i id="contact-img-i-i" class="bx bx-user"></i>
+            <h2 id="contact-name">Sergio Moro</h2>
+            <p id="contact-phone">+55 (41)1234-5678</p>
+            <i id="contact-favorite-i" class="bx bx-heart"></i>
+            <i id="contact-edit-i" class="bx bx-edit"></i>
+            <i id="contact-delete-i" class="bx bx-trash"></i>
+        </div>
+
+    </div>
+
 </body>
 </html>

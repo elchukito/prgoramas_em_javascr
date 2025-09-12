@@ -1,14 +1,15 @@
 package com.elchukito;
 
-import com.elchukito.controllers.*;
-import com.elchukito.utils.JavalinUtils;
-import com.elchukito.models.*;
+import java.util.ArrayList;
+
+import com.elchukito.controllers.ContatoController;
+import com.elchukito.controllers.IndexController;
+import com.elchukito.models.Contato;
 
 import freemarker.template.Configuration;
 import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
 import io.javalin.rendering.template.JavalinFreemarker;
-import java.util.ArrayList;
 
 /**
  * Hello world!
@@ -36,9 +37,10 @@ public class Main {
         }).start(7000);
 
         IndexController indexController = new IndexController();
-        CadastroController cadastroController =  new CadastroController();
+        ContatoController contatoController =  new ContatoController();
         
         app.get("/", indexController.get);
-        app.get("/cadastro", cadastroController.get);
+        app.get("/cadastro", contatoController.get);
+        app.post("/contatos", contatoController.post);
     }
 }
