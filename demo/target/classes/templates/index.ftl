@@ -1,3 +1,5 @@
+<#import "macros.ftl" as m>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,14 +21,9 @@
     <button id="sign-but" onclick="window.location.href='/cadastro'">Cadastrar Contato</button>
     
     <div id="contact-list">
-        <div id="contact-card">
-            <i id="contact-img-i-i" class="bx bx-user"></i>
-            <h2 id="contact-name">Sergio Moro</h2>
-            <p id="contact-phone">+55 (41)1234-5678</p>
-            <i id="contact-favorite-i" class="bx bx-heart"></i>
-            <i id="contact-edit-i" class="bx bx-edit"></i>
-            <i id="contact-delete-i" class="bx bx-trash"></i>
-        </div>
+        <#list databaseContato as contacts>
+            <@m.card name="sergio moro" phone="4199272727" email="sergiomoro@gmail.com"/>
+        </#list>
 
     </div>
 
