@@ -21,10 +21,13 @@
     <button id="sign-but" onclick="window.location.href='/cadastro'">Cadastrar Contato</button>
     
     <div id="contact-list">
-        <#list databaseContato as contacts>
-            <@m.card name="sergio moro" phone="4199272727" email="sergiomoro@gmail.com"/>
-        </#list>
-
+        <#if (isEmpty(databasecontato) == true)>
+            <p id="no-contacts">Nenhum contato cadastrado</p>
+            <#else>
+            <#list databasecontato as contato>
+                <@m.contact_card name="${contato.name}" phone="$    {contato.phone}" email="${contato.email}"/>
+            </#list>
+        </#if>
     </div>
 
 </body>

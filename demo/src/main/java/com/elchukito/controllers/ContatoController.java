@@ -4,6 +4,10 @@ import java.util.Map;
 
 import io.javalin.http.Handler;
 
+import com.elchukito.Main;
+import com.elchukito.models.Contato;
+import static com.elchukito.Main.databaseContato;
+
 
 public class ContatoController {
     
@@ -15,6 +19,8 @@ public class ContatoController {
         String name = ctx.formParam("name");
         String phone = ctx.formParam("phone");
         String email = ctx.formParam("email");
+
+        databaseContato.add(new Contato(name, phone, email));
 
         System.out.println(name);
         System.out.println(phone);

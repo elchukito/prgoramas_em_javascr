@@ -4,5 +4,6 @@
     "vscode-pokemon.pokemonSize": "small",
     "vscode-pokemon.theme": "none",
     "vscode-pokemon.position": "explorer",
-    "editor.fontSize": 17
+    "editor.fontSize": 17,
+    "workbench.iconTheme": "material-icon-theme"
 }

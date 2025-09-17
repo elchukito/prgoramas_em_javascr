@@ -19,13 +19,6 @@ public class Main {
     public static ArrayList<Contato> databaseContato = new ArrayList<>();
 
     public static void main( String[] args ){
-        Contato contato=  new Contato("Sergio Moro", "sergiomorinho@outlook.com", "08001234");
-
-        Agenda agenda = new Agenda("info24", "online");
-
-        agenda.adicionarContato(contato);
-
-        System.out.println(agenda);
 
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_34);
         cfg.setClassForTemplateLoading(Main.class, "/templates");
@@ -38,7 +31,6 @@ public class Main {
 
         IndexController indexController = new IndexController();
         ContatoController contatoController =  new ContatoController();
-        
             
         app.get("/", indexController.get);
         app.get("/cadastro", contatoController.get);

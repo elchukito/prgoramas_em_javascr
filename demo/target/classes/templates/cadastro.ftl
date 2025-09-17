@@ -1,3 +1,5 @@
+<#import "macros.ftl" as m>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -27,6 +29,12 @@
         </form>
 
         <a id="back-but" href="/">Voltar</a>
+
+        <ul>
+            <#list databasecontato as dbcontato>
+                <@m.renderContato databasecontato=dbcontato/>
+            </#list>
+        </ul>
     </div>
 </body>
 </html>

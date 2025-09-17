@@ -23,4 +23,17 @@ public class Agenda {
     public String toString() {
         return "Descricao: " + this.descricao + "  tipo: " + this.tipo + "  Contato: " + this.listarContatos();
     }
+
+    public String getDescricao() {
+        return descricao;
+    }
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+    public String getTipo() {
+        return tipo;
+    }
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
 }
