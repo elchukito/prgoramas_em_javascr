@@ -30,11 +30,7 @@
 
         <a id="back-but" href="/">Voltar</a>
 
-        <ul>
-            <#list databasecontato as dbcontato>
-                <@m.renderContato databasecontato=dbcontato/>
-            </#list>
-        </ul>
+
     </div>
 </body>
 </html>
