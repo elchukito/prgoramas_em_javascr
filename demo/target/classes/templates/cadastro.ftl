@@ -17,13 +17,14 @@
     <h1>Cadastro de contato</h1>
 
     <div id="container">
-        <form id="contact-form" action="/contatos" method="post">
-            <i id=""></i>
+        <form id="contact-form" action="/contatos" method="post" enctype="multipart/form-data">
             <input type="text" id="name" name="name" placeholder="Nome:" onblur="placeholder='Nome:'" onclick="placeholder='ex: Sergio Moro'" required>
             <br>
             <input type="tel" id="phone" name="phone" placeholder="Telefone:" onblur="placeholder='Telefone:'" onclick="placeholder='ex: 41 944433777'" required>
             <br>
             <input type="email" id="email" name="email" placeholder="Email:" onblur="placeholder='Email:'" onclick="placeholder='ex: Exemplo@gmail.com'">
+            <br>
+            <input type="file" id="ïmg" name="img" accept="image/*" >
             <br>
             <button id="add-but" type="submit">Salvar Contato</button>
         </form>

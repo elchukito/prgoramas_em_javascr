@@ -1,6 +1,6 @@
 <#macro contactCard name phone email>
     <div id="contact-card">
-        <i id="contact-img-i-i" class="bx bx-user"></i>
+        <i id="contact-img" class="bx bx-user"></i>
         <h2 id="contact-name">${name}</h2>
         <p id="contact-phone">${phone}</p>
         <p id="contact-email">${email}</p>
