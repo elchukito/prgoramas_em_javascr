@@ -1,7 +1,5 @@
 package com.elchukito.models;
 
-import com.elchukito.Main;
-
 public class Contato {
     private String nome;
     private String email;

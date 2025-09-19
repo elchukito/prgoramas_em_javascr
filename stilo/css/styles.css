@@ -19,7 +19,7 @@ h1 {
     font-size: 400;
 }
 
-#contact-list {
+#contato-list {
     width: 65%;
     margin: auto;
     padding: 0.01% 3.75%;
@@ -28,7 +28,7 @@ h1 {
     background-color: rgba(249, 234, 247, 0.4);
 }
 
-#contact-card {
+#contato-card {
     display: flex;
     align-items: center;
     align-content: center;
@@ -40,7 +40,7 @@ h1 {
     background-color: rgba(43, 39, 42, 0.6);
 }
 
-#contact-img-i {
+#contato-img-i {
     font-size: 225%;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.2);
@@ -49,19 +49,19 @@ h1 {
     margin-right: 2%;
 }
 
-#contact-name {
+#contato-name {
     font-size: 20px;
     font-weight: 600;
     padding: 0px 1%;
 }
 
-#contact-phone {
+#contato-phone {
     font-size: 13px;
     font-weight: 400;
     padding: 0px 1%;
 }
 
-#contact-favorite-i, #contact-edit-i, #contact-delete-i {
+#contato-favorite-i, #contato-edit-i, #contato-delete-i {
     color: aliceblue;
     font-size: 200%;
     padding: 0 1.5%;
@@ -71,17 +71,17 @@ h1 {
     cursor: pointer;
 }
 
-#contact-favorite-i {
+#contato-favorite-i {
     margin-left: auto;
     background-color: rgb(63, 103, 222);
 }
 
-#contact-edit-i {
+#contato-edit-i {
     background-color: rgb(250, 169, 19);
     margin: 0 2%;
 }
 
-#contact-delete-i {
+#contato-delete-i {
     background-color: rgb(255, 37, 37);
 }
 

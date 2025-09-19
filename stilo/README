@@ -1,10 +1,10 @@
-📒 Atividade: Criando Telas para o Sistema de Agenda e Contatos
+📒 Atividade: Criando Telas para o Sistema de Agenda e contatos
 🎯 Objetivo
-Nesta atividade, você irá praticar HTML e CSS construindo as telas de Index e Cadastro de Contatos para um sistema de Agenda.
+Nesta atividade, você irá praticar HTML e CSS construindo as telas de Index e Cadastro de contatos para um sistema de Agenda.
 Ainda não vamos integrar com o Javalin (isso será feito nas próximas aulas). O foco aqui é treinar a estruturação das páginas e a aplicação dos conceitos de estilização em CSS.
 
 📌 Contexto do Projeto
-Estamos criando um Sistema de Agenda e Contatos.
+Estamos criando um Sistema de Agenda e contatos.
 No backend (Java), temos dois modelos principais:
 
 // Classe Agenda
@@ -14,8 +14,8 @@ public class Agenda {
     ...
 }
 
-// Classe Contato
-public class Contato {
+// Classe contato
+public class contato {
     private String nome;
     private String email;
     private String telefone;
@@ -23,16 +23,16 @@ public class Contato {
 }
 🚀 Por enquanto, sua missão é:
 Criar a tela Index (Home), onde será apresentada a agenda de contatos.
-Criar a tela Cadastro de Contatos, com um formulário para inserir:
+Criar a tela Cadastro de contatos, com um formulário para inserir:
 Nome
 E-mail
 Telefone
 🖼️ Telas a Desenvolver
 1. Index (Home)
-Um título com o nome do sistema: "Agenda de Contatos"
+Um título com o nome do sistema: "Agenda de contatos"
 Uma lista (simulada) de contatos já cadastrados.
 Um botão/link para a tela de cadastro.
-2. Cadastro de Contatos
+2. Cadastro de contatos
 Um formulário com os campos:
 Nome (input text)
 E-mail (input email)
