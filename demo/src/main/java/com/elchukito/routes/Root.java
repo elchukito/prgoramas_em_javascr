@@ -14,7 +14,7 @@ public class Root {
         this.contatoController =  new ContatoController();
     }
 
-    public  void registerRoots(Javalin app) {
+    public void registerRoots(Javalin app) {
         app.get("/", indexController.get);
         app.get("/cadastro", contatoController.get);
         app.post("/contatos", contatoController.post);

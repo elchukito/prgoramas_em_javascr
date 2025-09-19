@@ -1,9 +1,6 @@
 package com.elchukito;
 
-import java.util.ArrayList;
-
 import com.elchukito.config.AppConfig;
-import com.elchukito.models.Contato;
 import com.elchukito.routes.Root;
 
 public class Main {

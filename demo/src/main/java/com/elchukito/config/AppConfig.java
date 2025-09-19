@@ -3,9 +3,9 @@ package com.elchukito.config;
 import com.elchukito.Main;
 
 import freemarker.template.Configuration;
-import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
 import io.javalin.rendering.template.JavalinFreemarker;
+import io.javalin.Javalin;
 
 public class AppConfig {
     public Javalin startApp (){
