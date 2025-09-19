@@ -7,7 +7,6 @@ import com.elchukito.models.Contato;
 import com.elchukito.routes.Root;
 
 public class Main {
-    public static ArrayList<Contato> databaseContato = new ArrayList<>();
 
     public static void main( String[] args ){
 

@@ -8,5 +8,8 @@
     "workbench.iconTheme": "material-icon-theme",
     "files.autoSave": "afterDelay",
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Dracula Theme"
+    "workbench.colorTheme": "Dracula Theme",
+    "java.configuration.runtimes": [
+        
+    ]
 }

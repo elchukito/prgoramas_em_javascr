@@ -1,7 +1,5 @@
 package com.elchukito.models;
 
-import com.elchukito.Main;
-import com.elchukito.models.Contato;
 import java.util.ArrayList;
 
 public class Agenda {
@@ -14,11 +12,12 @@ public class Agenda {
     }
 
     public void adicionarContato(Contato contato) {
-        Main.databaseContato.add(contato);
+        // Main.databaseContato.add(contato);
     }
 
     public static ArrayList<Contato> listarContatos() {
-        return Main.databaseContato;
+        ArrayList<Contato> a = new ArrayList<>();
+        return a;
     }
 
     public String toString() {
