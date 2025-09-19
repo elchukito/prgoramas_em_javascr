@@ -21,18 +21,12 @@
     <button id="sign-but" onclick="window.location.href='/cadastro'">Cadastrar Contato</button>
     
     <div id="contact-list"> 
-        <#if (true)>
-            <div id="contact-card">
-                <i id="contact-img-i-i" class="bx bx-user"></i>
-                <h2 id="contact-name">Segio Moro</h2>
-                <p id="contact-phone">+55 (41)98001-1234</p>
-                <p id="contact-email">morinho@gmail.com</p>
-                <i id="contact-favorite-i" class="bx bx-heart"></i>                
-                <i id="contact-edit-i" class="bx bx-edit"></i>
-                <i id="contact-delete-i" class="bx bx-trash"></i>
-            </div>
+        <#if (contactlist?has_content) >
+            <#list contactlist as c>
+                    <@m.contactCard name=c.nome email=c.email phone=c.telefone/>
+            </#list>
         <#else/>
-            <p id=contact-card-null>Nenhum Contato Encontrado</P>
+            <p id="contact-card-null">Nenhum Registro Encontrado :(</p>
         </#if>
     </div>
 

@@ -7,10 +7,10 @@ public class Contato {
     private String email;
     private String telefone;
 
-    public Contato(String nome, String email, String telefone) {
+    public Contato(String nome, String telefone, String email) {
         this.nome = nome;
-        this.email = email;
         this.telefone = telefone;
+        this.email = email;
     }
 
     public String toString() {

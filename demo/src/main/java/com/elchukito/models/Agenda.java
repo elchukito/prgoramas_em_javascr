@@ -1,6 +1,7 @@
 package com.elchukito.models;
 
 import com.elchukito.Main;
+import com.elchukito.models.Contato;
 import java.util.ArrayList;
 
 public class Agenda {
@@ -16,7 +17,7 @@ public class Agenda {
         Main.databaseContato.add(contato);
     }
 
-    public ArrayList<Contato> listarContatos() {
+    public static ArrayList<Contato> listarContatos() {
         return Main.databaseContato;
     }
 

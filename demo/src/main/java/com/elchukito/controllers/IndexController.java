@@ -1,16 +1,15 @@
 package com.elchukito.controllers;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
-import static com.elchukito.Main.databaseContato;
+import com.elchukito.models.Agenda;
 
 import io.javalin.http.Handler;
 
 public class IndexController {
     
     public Handler get = ctx -> {
-        Map<String, Object> model = new HashMap<>();
-        model.put("databaseContato", databaseContato);
-        ctx.render("index.ftl", model);
+        ctx.render("index.ftl", Map.of("contactlist", Agenda.listarContatos() ) ) ;
     };
 }

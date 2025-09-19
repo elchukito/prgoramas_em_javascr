@@ -11,10 +11,6 @@ import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
 import io.javalin.rendering.template.JavalinFreemarker;
 
-/**
- * Hello world!
- *
- */
 public class Main {
     public static ArrayList<Contato> databaseContato = new ArrayList<>();
 
