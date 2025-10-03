@@ -1,0 +1,4 @@
+João Marcos;marcinhos@gmail.com;2009-12-25;23123132321;10.0;10.0;10.0;10.0
+elchukito;megaswag@video.game;2021-12-21;12233333333;10.0;10.0;10.0;10.0
+Efigênio Javalin;javalinmaster@hotmail.com;1800-12-05;93891012345;0.5;0.0;0.0;0.0
+aluno Teste;alunoteste@gmail.com;2009-04-11;00000000000;0.0;0.0;0.0;0.0

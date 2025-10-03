@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 90, 100);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+    font-size: 16x;
+}
+
+button {
+    display: block;
+    color: aliceblue;
+    background-color: rgb(59, 61, 72);
+    border-radius: 5px;
+    border: 1px solid rgb(40, 43, 57);
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#register-form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+    padding: 5px;
+    color: black;
+}
+
+#edit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#edit-form input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 8px;
+    padding: 5px;
+    color: black;
+}
+
+#delete-student-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#table-view {
+    background-color: rgb(58, 60, 70);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(146, 184, 72);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
