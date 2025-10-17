@@ -16,7 +16,7 @@ public class Main {
         // String url = "jdbc:mysql://host:port/nameBank?user=user?password=pass"
         String url = "jdbc:mysql:" + host + port + "/" + nameBank + "?user=" + user + "&password=" + pass;
 
-        /*try {
+        try {
             Connection connection = DriverManager.getConnection(url);
             String query = "SELECT * FROM vet_ex_pet";
             PreparedStatement stmt = connection.prepareStatement(query);
@@ -33,42 +33,26 @@ public class Main {
         } catch(SQLException e) {
             System.out.println(e.getMessage());
             return ;
-        }*/
+        }
 
-        /*for (int i= 0; i < 10; i++) {
+
         try {
-                String queryInsert = "INSERT INTO vet_ex_raca (nome_raca_vet_ex) VALUES (?)";
-                
-                Connection connection = DriverManager.getConnection(url);
-                PreparedStatement stmt = connection.prepareStatement(queryInsert);
-                
-                stmt.setString(1, "MATHEUZINI ");
-
-                stmt.execute();
-
-                connection.close();
-                
-            } catch (SQLException e) {
-                System.out.println(e.getMessage());
-                return ;
-            }
-            System.out.println("fim");
-        }*/
-        try {
-            String queryInsert = "DELETE * FROM vet_ex_raca ";
+            String queryInsert = "INSERT INTO vet_ex_raca (nome_raca_vet_ex) VALUES (?)";
             
             Connection connection = DriverManager.getConnection(url);
             PreparedStatement stmt = connection.prepareStatement(queryInsert);
             
-            stmt.setString(1, queryInsert);
+            stmt.setString(1, "ROTIVAILE");
 
-            Boolean result = stmt.execute();
-            System.out.println("Resultado: " + result);  
+            stmt.execute();
 
             connection.close();
+            
         } catch (SQLException e) {
             System.out.println(e.getMessage());
             return ;
         }
+
+        System.out.println("fim");
     }
 }
